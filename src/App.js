@@ -40,6 +40,7 @@ function App() {
         <Header />
 
         <Routes>
+          {/* <Route path="/" element={<Header />} /> */}
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/" element={<Home />} />
           <Route path="/payment" element={<Payment />} />
